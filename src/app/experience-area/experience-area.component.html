@@ -1,0 +1,11 @@
+<div>
+  <div *ngFor="let item of data; index as i; first as isFirst" class="experience-box">
+    <h2>{{ item.company }} - {{ item.position }} - {{ item.period }}</h2>
+    <p *ngFor="let xp of item.activities; index as i; first as isFirst">
+      {{ xp }}
+    </p>
+    <div class="chip-container">
+      <p *ngFor="let key of item.keys" class="chip">{{ key }}</p>
+    </div>
+  </div>
+</div>

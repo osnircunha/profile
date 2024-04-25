@@ -1,0 +1,18 @@
+.chip {
+  display: inline-block;
+  padding: 0 15px;
+  margin: 0 8px;
+  height: 35px;
+  font-size: 14px;
+  line-height: 35px;
+  border-radius: 25px;
+  background-color: #f1f1f1;
+}
+
+.experience-box {
+  padding: 15px 0;
+}
+
+.chip-container {
+
+}
